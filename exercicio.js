@@ -81,3 +81,13 @@ let valor2 = Number(prompt("digite um número de 20 à 30"));
 console.log(valor1 + valor2); 
 console.log(valor1 * valor2); 
 
+let nome =  prompt("qual o seu nome?");
+
+let anoNascimento = prompt("qual o ano do eu nascimento?");
+
+let anoAtual = prompt("Ano atual?")
+
+console.log("Nome:", nome);
+console.log("idade", (anoAtual - anoNascimento));
+console.log("é maior de idade?",((anoAtual - anoNascimento)>=18));
+console.log("idade em 2050:", (2050 - anoNascimento));
